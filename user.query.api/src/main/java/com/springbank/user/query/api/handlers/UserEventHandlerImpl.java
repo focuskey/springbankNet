@@ -25,6 +25,7 @@ public class UserEventHandlerImpl implements UserEventHandle{
         this.userRepository = userRepository;
     }
 
+
     //EventHandler defined the business logic to be performed when an event  is received or consumed from teh EventBus.
     @EventHandler
     @Override
